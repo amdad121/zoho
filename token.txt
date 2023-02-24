@@ -1,0 +1,32 @@
+Client ID:
+1000.ALIQWXMIU41ZIUOR1OGIFVE7BEXQ7B
+
+Client Secret:
+3aa80923548141302d49e4d66ea4598780e26a7346
+
+Scope:
+ZohoInventory.salesorders.READ,ZohoInventory.contacts.READ,ZohoInventory.contacts.CREATE
+
+Generated Code:
+1000.dc294c63bf911f6b4dec4feeae85ef07.f46bec9e0e2160fbe2b9395ee266559c
+
+Refresh Token:
+1000.3a603238132bf7025edbbbffbaf50694.096c87f5b65afe413aa90fc297e07d6c
+
+Generating Grant Token:
+https://accounts.zoho.com/oauth/v2/auth?scope=ZohoInventory.salesorders.READ,ZohoInventory.contacts.CREATE&client_id=1000.ALIQWXMIU41ZIUOR1OGIFVE7BEXQ7B&state=testing&response_type=code&redirect_uri=http://www.zoho.com/inventory&access_type=offline
+
+Generate Access And Refresh Token:
+https://accounts.zoho.com/oauth/v2/token?code=1000.47098485831572f97c7d14aad3281e4b.6679a23e45aae6d31a45cc6d60805709&client_id=1000.ALIQWXMIU41ZIUOR1OGIFVE7BEXQ7B&client_secret=3aa80923548141302d49e4d66ea4598780e26a7346&redirect_uri=http://www.zoho.com/inventory&grant_type=authorization_code
+
+Generate Access Token From Refresh Token:
+https://accounts.zoho.com/oauth/v2/token?refresh_token=1000.8ecd474019e31d52d2f94aad6c5cb7.4638677ebc14f2f2ee0b6dfb6cebdc&client_id=1000.0SRSZSY37WMZ69405H3TMYI2239V&client_secret=fb0196010f2b70df8db2a173ca2cf59388798abf&redirect_uri=http://www.zoho.com/inventory&grant_type=refresh_token
+
+Revoking A Refresh Token:
+https://accounts.zoho.com/oauth/v2/token/revoke?token=1000.8ecd474019e31d522f94aad6c5cb7.4638677ebc14f2f2ee0b6dfb6cebdc
+
+List all Sales Orders:
+https://www.zohoapis.com/inventory/v1/salesorders?organization_id=803885919
+
+Create a Contact:
+https://www.zohoapis.com/inventory/v1/contacts?organization_id=803885919
